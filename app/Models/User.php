@@ -53,6 +53,8 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         // ❌ hapus cast "hashed" karena kita pakai enkripsi manual Vigenere
         // 'password' => 'hashed',
+        'email' => 'encrypted',
+        'pin' => 'encrypted',
     ];
 
     public function izins(): HasMany

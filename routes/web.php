@@ -28,9 +28,11 @@ Route::get('/verifikasi-pin', [ProfileController::class, 'showPinForm'])->name('
 Route::post('/verifikasi-pin', [ProfileController::class, 'verifyPin'])->name('verifikasi.pin.submit');
 
 
-Route::get('login', [AuthController::class, 'index'])->name('login');
+Route::get('login', [AuthController::class, 'index'])->name('login')
+    ->middleware('throttle:5,5');
 Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 Route::post('login', [AuthController::class, 'doLogin'])->name('doLogin');
+
 Route::get('/register', function () {
     return view('auth.register');
 })->name('register.show');
