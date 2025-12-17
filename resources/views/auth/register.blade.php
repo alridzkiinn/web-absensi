@@ -39,7 +39,7 @@
                         autofocus>
                 </div>
                 <div class="w-full flex items-center">
-                    <span class="w-40">Nama Panggilan</span>
+                    <span class="w-40">Nama Panjang</span>
                     <input type="text" name="name" id="name" required class="border w-full py-1 px-2">
                 </div>
                 <div class="w-full flex items-center">

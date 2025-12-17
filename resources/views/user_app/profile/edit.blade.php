@@ -29,10 +29,10 @@
                         placeholder="Masukkan nama lengkap Anda . . ." value="{{ $user->name }}" required>
                 </div>
                 <div class="space-y-2">
-                    <label for="full_name">Nama Panggilan</label>
+                    <label for="full_name">Nama Panjang</label>
                     <input type="text" name="full_name" id="full_name"
                         class="border rounded-sm w-full placeholder:text-sm p-2"
-                        placeholder="Masukkan nama panggilan Anda . . ." value="{{ $user->full_name }}" required>
+                        placeholder="Masukkan nama panjang Anda . . ." value="{{ $user->full_name }}" required>
                 </div>
                 <div class="space-y-2">
                     <label for="email">Email</label>

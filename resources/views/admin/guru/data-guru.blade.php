@@ -36,7 +36,7 @@
                 <thead>
                     <th class="border p-2">No.</th>
                     <th class="border p-2">Nama Lengkap</th>
-                    <th class="border p-2">Nama Panggilan</th>
+                    <th class="border p-2">Nama Panjang</th>
                     <th class="border p-2">Email</th>
                     <th class="border p-2">Jenis Kelamin</th>
                     <th class="border p-2">Alamat</th>
