@@ -1,6 +1,5 @@
 # 🛡️ FINAL MISSION: OPERATION "IMMUTABLE DATA"
 > **Mata Kuliah:** Keamanan Perangkat Lunak 
-> **Status Proyek:** 🟢 Completed & Secured
 
 ---
 
