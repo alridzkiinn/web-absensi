@@ -18,7 +18,7 @@ class ProfileController extends Controller
         $url = URL::current();
         $url = explode('/', $url);
         $user = Auth::user();
-                // Dekripsi nama panggilan menggunakan pin
+                // Dekripsi nama panjang menggunakan pin
         if ($user->pin && $user->name) {
             $user->name = VigenereCipher::decrypt($user->name, $user->pin);
         }
@@ -33,7 +33,7 @@ class ProfileController extends Controller
     public function update()
     {
         $user = Auth::user();
-        // Dekripsi nama panggilan menggunakan pin
+        // Dekripsi nama panjang menggunakan pin
         if ($user->pin && $user->name) {
             $user->name = VigenereCipher::decrypt($user->name, $user->pin);
         }

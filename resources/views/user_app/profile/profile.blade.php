@@ -25,7 +25,7 @@
             </div>
         </div>
         <div class="mt-8 text-slate-500">
-            Nama Panggilan
+            Nama Panjang
         </div>
         <div class="text-lg">{{ $user->name }}</div>
         <div class="mt-4 text-slate-500">
